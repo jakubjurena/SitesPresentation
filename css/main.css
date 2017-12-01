@@ -29,6 +29,7 @@ h2 {
 .site {
     width: 100%;
     height: 60vh;
+    min-height: 20vw;
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,6 +83,29 @@ body > a {
 .site-content > div {
     display: table-cell;
     vertical-align: middle;
+}
+
+.site > .site-content {
+    /* animation */
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.site:hover > .site-content {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
 }
 
 /*
