@@ -29,7 +29,6 @@ h2 {
 }
 
 .site {
-    font-family: 'Source Code Pro', monospace;
     width: 100%;
     height: 50vh;
     background-repeat: no-repeat;
@@ -58,11 +57,16 @@ body > a:last-of-type > div{
     margin-bottom: 4em;
 }
 
+body > a {
+    text-decoration: none;
+}
+
 .site-content {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 140%;
     width: 30%;
     min-width: 140px;
     float: right;
-    text-decoration: none;
     color: black;
     font-weight: 700;
     padding: 1em 2em;
@@ -159,5 +163,14 @@ footer a:hover, footer a:active {
 
     .coming-table {
         padding: 1em;
+    }
+
+    .site {
+        justify-content: center;
+        padding-right: 0px;
+    }
+
+    .site-content {
+        font-size: 110%;
     }
 }
