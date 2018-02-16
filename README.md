@@ -1,2 +1,2 @@
 # SitesPresentation
-Static web page used to present available sites and web apps of DevsOnCoffee
+Static web page used to [present available sites](http://sites.devsoncoffee.com) and web apps of DevsOnCoffee
