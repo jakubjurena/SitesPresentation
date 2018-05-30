@@ -134,6 +134,18 @@ body > a {
     background: rgba(156,39,176,0.9);
 }
 
+/*
+*
+*   setting bg and content div color for chat site
+*
+ */
+ .chat {
+    background-image: url(../assets/images/chat_bg.jpg);
+    background-position: center center !important;
+}
+.chat > div {
+    background: rgba(38, 166, 154,0.9);
+}
 
 /**
 *
